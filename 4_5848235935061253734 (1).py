@@ -28,15 +28,15 @@ from telegram.ext import (
 # ═══════════════════════════════════════════════════════════════
 #  CONFIGURATION
 # ═══════════════════════════════════════════════════════════════
-BOT_TOKEN      = "8942558695:AAFDa5s"
-OWNER_IDS      = [7011937754]
-ADMIN_IDS      = [7011937754]
-OTP_GROUP_LINK = "https://t.me/junaidniz110"
-BOT_NAME       = "Junaid OTP⚡️"
+BOT_TOKEN      = "8933245461:AAG8EHAntnbnTskEGhmI0eID4RGJX5feYPs"
+OWNER_IDS      = [8129003140]
+ADMIN_IDS      = [8129003140]
+OTP_GROUP_LINK = "https://t.me/kiteotp"
+BOT_NAME       = "IVASMS OTP"
 
 REQUIRED_CHANNELS = []  # Force-join removed
 
-DEV_CONTACT    = "@Junaidniz786"
+DEV_CONTACT    = "@payment_owner"
 
 DEFAULT_PANELS = {
     "KUMAIL HADI": {
@@ -46,7 +46,7 @@ DEFAULT_PANELS = {
     }
 }
 
-OTP_GROUP_IDS = [-1003633717063]
+OTP_GROUP_IDS = [-1003652361706]
 
 OTP_FILE      = "otp_store.json"
 PANEL_FILE    = "panels.json"
