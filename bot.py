@@ -526,8 +526,8 @@ def update_staff_perms(uid: int, perms: list):
 
 def load_config():
     return load_json(CONFIG_FILE, {
-        "channel_link":    "https://t.me/junaidaliniz",
-        "number_bot_link": "https://t.me/junaidaliniz",
+        "channel_link":    "https://t.me/kitenumbers",
+        "number_bot_link": "https://t.me/IVASMSotps_bot",
         "otp_forward":     True,
         "forward_delay":   0,
         "log_group":       None,
