@@ -753,7 +753,7 @@ def format_otp_message(number: str, service: str, otp: str,
         chr(ord(c) + 0x1D400 - ord('A')) if 'A' <= c <= 'Z' else
         chr(ord(c) + 0x1D41A - ord('a')) if 'a' <= c <= 'z' else
         chr(ord(c) + 0x1D7CE - ord('0')) if '0' <= c <= '9' else c
-        for c in Junaid OTP_number
+        for c in Junaid_OTP_number
     )
     base = (f"{country_custom_emoji} ┃ {app_custom_emoji}"
             f"  <b>#{region}</b>  {bold_num}  {lang_emoji}<b>#{lang}</b>")
