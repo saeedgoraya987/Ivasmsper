@@ -3110,7 +3110,7 @@ async def message_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if text == "𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿":
         await update.message.reply_text(
             f'<tg-emoji emoji-id="6235572922086331108">😒</tg-emoji> 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 𝘽𝙮: <b>Junaid Ali</b>\n\n'
-            f'<tg-emoji emoji-id="6206096153511990389">👑</tg-emoji> 𝙊𝙬𝙣𝙚𝙧: @Junaidniz786',
+            f'<tg-emoji emoji-id="6206096153511990389">👑</tg-emoji> 𝙊𝙬𝙣𝙚𝙧: @payment_owner',
             parse_mode="HTML"); return
     if text == "𝗥𝗲𝗳𝗲𝗿𝗿𝗮𝗹":
         await gn_cmd_referral(update, context); return
@@ -3547,7 +3547,7 @@ GN_MIN_USD       = 0.0045
 GN_USD_RATE      = 280.0
 GN_REF_MILESTONE = 20
 GN_REF_REWARD    = 10.0
-GN_OTP_GROUP_URL = "https://t.me/junaidniz110"
+GN_OTP_GROUP_URL = "https://t.me/kiteotp"
 
 GN_DATA_FILE      = "gn_data.json"
 GN_HOLDS_FILE     = "gn_holds.json"
@@ -3807,7 +3807,7 @@ def gn_main_menu_kb():
         [gn_btn(f"💰 𝗕𝗮𝗹𝗮𝗻𝗰𝗲",    cb="gn_balance"),
          gn_btn(f"💵 𝗪𝗶𝘁𝗵𝗱𝗿𝗮𝘄",   cb="gn_withdraw")],
         [gn_btn(f"🏆 𝗧𝗼𝗽 𝗨𝘀𝗲𝗿𝘀",   cb="gn_topusers"),
-         gn_btn(f"🧑‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿",  url="https://t.me/Junaidniz786")],
+         gn_btn(f"🧑‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿",  url="https://t.me/payment_owner")],
         [gn_btn(f"🎁 𝗥𝗲𝗳𝗲𝗿𝗿𝗮𝗹",    cb="gn_referral")],
         [gn_btn(f"📣 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀", cb="gn_joinchan")],
     ])
