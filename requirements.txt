@@ -1,0 +1,5 @@
+requests
+websockets
+phonenumbers
+python-telegram-bot
+aiohttp
