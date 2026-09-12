@@ -744,7 +744,7 @@ def format_otp_message(number: str, service: str, otp: str,
     country_custom_emoji = get_custom_country_emoji(region)
     app_custom_emoji     = get_app_emoji(service)
 
-    Junaid OTP_number = format_number_Junaid OTP(number)
+    Junaid OTP_number = format_number_Junaid_OTP(number)
     lang = detect_language_from_text(sms_text) or REGION_LANGUAGE.get(region, "English")
 
     lang_emoji = '<tg-emoji emoji-id="5388632425314140043">🌐</tg-emoji>'
