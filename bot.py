@@ -722,7 +722,7 @@ def format_otp_code(code: str) -> str:
     mid = n // 2
     return code[:mid] + "-" + code[mid:]
 
-def format_number_Junaid OTP(number: str) -> str:
+def format_number_Junaid_OTP(number: str) -> str:
     """Format full number as: 4915511-Junaid-03543"""
     digits = re.sub(r"[^0-9]", "", number)
     if len(digits) >= 12:
