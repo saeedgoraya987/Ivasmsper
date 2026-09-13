@@ -11,7 +11,7 @@ import ssl
 import json
 import os
 import sys
-import tim
+import time
 import logging
 import sqlite3
 import websockets
