@@ -28,9 +28,9 @@ from telegram.ext import (
 # ═══════════════════════════════════════════════════════════════
 #  CONFIGURATION
 # ═══════════════════════════════════════════════════════════════
-BOT_TOKEN      = "8933245461:AAG8EHAntnbnTskEGhmI0eID4RGJX5feYPs"
-OWNER_IDS      = [8129003140]
-ADMIN_IDS      = [8129003140]
+BOT_TOKEN      = "8225038196:AAH-GpcVFHRZZ97OcZZCvbEJp1wRwWmltMg"
+OWNER_IDS      = [6109365101]
+ADMIN_IDS      = [6109365101]
 OTP_GROUP_LINK = "https://t.me/kiteotp"
 BOT_NAME       = "IVASMS OTP"
 
